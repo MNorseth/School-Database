@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to our Database</title>
+	<h1><center> CPSC 332 Project</center></h1>
+	<center><h4>Mitchell Norseth CWID: 7937</h4></center>
+	<center><h4>Abdul Qayoom Abass Zada CWID: 5507</h4></center>
+	<center><h4>Brandon Tomich CWID: 7008</h4></center>
+	<center><h4>Account Username: cs332s26 </h4></center>
+	<center><h5>Click the button below to see the entire database.</h5><center>
+</head>
+
+<body>
+
+<center><form action="database.php">
+  <input type="submit" value="click on me!">
+</form></center>
+
+<br>
+
+<h4>Professors</h4>
+
+To see titles, classrooms, meeting days and times for your classes:
+
+<br></br>
+
+<center><form action="professor1.php" method = "POST">
+ Enter SSN: <input type="text" name="SSN"/>
+  <input type="submit"/>
+</form></center>
+
+<br></br>
+
+To see the count of how many students get a particular grade:
+
+<br></br>
+
+<center><form action="professor2.php" method = "POST">
+ Enter Course Number: <input type="text" name="CourseNo"/> <br></br>
+ Enter Section Number: <input type="text" name="Section"/> <br></br>
+  <input type="submit"/>
+</form></center>
+
+<br>
+<h4>Students</h4>
+
+To view information about the sections for a particular course
+<br></br>
+
+<center><form action="student1.php" method = "POST">
+ Enter Course Number: <input type="text" name="CourseNo"/> 
+  <input type="submit"/>
+</form></center>
+
+<br>
+To view your courses that you've taken along with your grades for those courses
+<br></br>
+<center><form action="student2.php" method = "POST">
+ Enter CWID: <input type="text" name="SNO"> 
+  <input type="submit"/>
+</form></center>
+
+</body>
+
+</html>
